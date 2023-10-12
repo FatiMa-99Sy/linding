@@ -1,0 +1,64 @@
+   *{
+   	margin: 0;
+   	padding: 0;
+   	box-sizing: border-box;
+   }
+   .sec2{
+   	width: 100%;
+
+   }
+   .conteneur{
+   	width: 100%;
+   	background-color: #eeeeee;
+   	display: grid;
+   	grid-template-columns: repeat(3, 2fr);
+   	grid-template-rows: 400px 400px;
+   	gap: 10px;
+   }
+   .card{
+   	width: 100%;
+   	height: 400px;
+   }
+   .card img , .card-1{
+   	width: 100%;
+   	height: 200px;
+   }
+   .card-1 , .kha{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: space-around;
+   	background-color: white;
+   }
+   .kha{
+   	height: 240px;
+   }
+   span{
+   	width: 100%;
+   }
+   strong{
+   	color: green;
+   }
+   .light-grey{
+   	width: 100%;
+   	background-color: #cccccc;
+
+   }
+   .bleu{
+   	background-color: green;
+   }
+
+   .carde2-flex{
+   	display: flex;
+     gap: 10px;
+     background-color: #fff;
+   }
+   .card2-2{
+   	font-weight: 600;
+   }
+   .card3 button{
+   	color: white;
+   	background: red;
+   	width: 100%;
+   	height: 60px;
+   	border: none;
+   }
